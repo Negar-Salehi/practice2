@@ -9,6 +9,6 @@ while True:
         print ("The Number of Your Guesses Are:" + str(number_count))
         break
     elif computer_number > user_number:
-        print("Up")
+        print("Bigger than your guess")
     elif computer_number < user_number:
-        print("Down")
+        print("Smaller than your guess")
